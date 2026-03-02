@@ -40,7 +40,7 @@ This project applies machine learning classification to the classic Titanic data
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
 
 ```
 titanic-survival-prediction/
@@ -62,7 +62,7 @@ titanic-survival-prediction/
 
 ---
 
-## 🛠️ Data Preprocessing
+## 🔧 Data Preprocessing
 
 Handled in `DataPreprocessing.py`:
 
@@ -153,11 +153,11 @@ These findings align with historical evacuation priorities during the Titanic di
 
 ---
 
-## ▶️ How to Run
+## 🚀 How to Run
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/titanic-survival-prediction.git
+git clone https://github.com/Ryzx-56/titanic-survival-prediction.git
 cd titanic-survival-prediction
 ```
 
