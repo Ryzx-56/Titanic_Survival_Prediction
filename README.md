@@ -10,16 +10,16 @@ Includes data preprocessing, feature engineering, model tuning with GridSearchCV
 ---
 
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Dataset](#dataset)
-- [Project Structure](#project-structure)
-- [Data Preprocessing](#data-preprocessing)
-- [Models](#models)
-- [Results](#results)
-- [Key Insights](#key-insights)
-- [Visualizations](#visualizations)
-- [How to Run](#how-to-run)
-- [Requirements](#requirements)
+- [Overview](#-overview)
+- [Dataset](#-dataset)
+- [Project Structure](#-project-structure)
+- [Data Preprocessing](#-data-preprocessing)
+- [Models](#-models)
+- [Results](#-results)
+- [Key Insights](#-key-insights)
+- [Visualizations](#-visualizations)
+- [How to Run](#-how-to-run)
+- [Requirements](#-requirements)
 
 ---
 
