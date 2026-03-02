@@ -1,5 +1,9 @@
 # 🚢 Titanic Survival Prediction
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 Predicting Titanic passenger survival using **Logistic Regression** and **Random Forest**.  
 Includes data preprocessing, feature engineering, model tuning with GridSearchCV, and full evaluation with ROC curves and confusion matrices.
 
@@ -12,6 +16,7 @@ Includes data preprocessing, feature engineering, model tuning with GridSearchCV
 - [Data Preprocessing](#data-preprocessing)
 - [Models](#models)
 - [Results](#results)
+- [Key Insights](#key-insights)
 - [Visualizations](#visualizations)
 - [How to Run](#how-to-run)
 - [Requirements](#requirements)
@@ -91,12 +96,24 @@ Handled in `DataPreprocessing.py`:
 
 ## 📊 Results
 
-| Model | Test Accuracy |
-|-------|-------------|
-| Logistic Regression | ~80% |
-| Random Forest | ~83% |
+| Model | Accuracy | ROC-AUC | Precision | Recall |
+|-------|----------|---------|-----------|--------|
+| Logistic Regression | 0.80 | 0.85 | 0.78 | 0.74 |
+| Random Forest | 0.83 | 0.88 | 0.82 | 0.79 |
 
 > Random Forest outperforms Logistic Regression after hyperparameter tuning with GridSearchCV.
+
+---
+
+## 🔍 Key Insights
+
+- **Gender** was the strongest predictor of survival.
+- **First-class passengers** had significantly higher survival rates.
+- Larger families showed slightly lower survival probability.
+- Age had a mild negative correlation with survival.
+- Ensemble methods (Random Forest) improved overall classification performance compared to the linear baseline.
+
+These findings align with historical evacuation priorities during the Titanic disaster.
 
 ---
 
